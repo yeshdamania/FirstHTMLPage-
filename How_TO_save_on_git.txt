@@ -1,0 +1,151 @@
+
+Dell@DESKTOP-3CB0HVL MINGW64 ~/Documents/HeristicAcedemy_2022
+$ ls
+
+Dell@DESKTOP-3CB0HVL MINGW64 ~/Documents/HeristicAcedemy_2022
+$ git clone hthttps://github.com/yeshdamania/FirstHTMLPage-.git
+Cloning into 'FirstHTMLPage-'...
+fatal: protocol 'https' is not supported
+
+Dell@DESKTOP-3CB0HVL MINGW64 ~/Documents/HeristicAcedemy_2022
+$ git clone https://github.com/yeshdamania/FirstHTMLPage-.git
+Cloning into 'FirstHTMLPage-'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (6/6), done.
+
+Dell@DESKTOP-3CB0HVL MINGW64 ~/Documents/HeristicAcedemy_2022
+$ ls
+FirstHTMLPage-/
+
+Dell@DESKTOP-3CB0HVL MINGW64 ~/Documents/HeristicAcedemy_2022
+$ cd FirstHTMLPage-/
+
+Dell@DESKTOP-3CB0HVL MINGW64 ~/Documents/HeristicAcedemy_2022/FirstHTMLPage- (main)
+$ LS
+README.md  yesh.html
+
+Dell@DESKTOP-3CB0HVL MINGW64 ~/Documents/HeristicAcedemy_2022/FirstHTMLPage- (main)
+$ ls
+README.md  yesh.html
+
+Dell@DESKTOP-3CB0HVL MINGW64 ~/Documents/HeristicAcedemy_2022/FirstHTMLPage- (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        firstHtmlPage.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Dell@DESKTOP-3CB0HVL MINGW64 ~/Documents/HeristicAcedemy_2022/FirstHTMLPage- (main)
+$ git add ..
+fatal: ..: '..' is outside repository at 'C:/Users/Dell/Documents/HeristicAcedemy_2022/FirstHTMLPage-'
+
+Dell@DESKTOP-3CB0HVL MINGW64 ~/Documents/HeristicAcedemy_2022/FirstHTMLPage- (main)
+$ git add firstHtmlPage.html
+
+Dell@DESKTOP-3CB0HVL MINGW64 ~/Documents/HeristicAcedemy_2022/FirstHTMLPage- (main)
+$ git commit -m "My first Html Page"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Dell@DESKTOP-3CB0HVL.(none)')
+
+Dell@DESKTOP-3CB0HVL MINGW64 ~/Documents/HeristicAcedemy_2022/FirstHTMLPage- (main)
+$ git config --global user.name "yesh Damania"
+
+Dell@DESKTOP-3CB0HVL MINGW64 ~/Documents/HeristicAcedemy_2022/FirstHTMLPage- (main)
+$ git config --global user.email "yeshdamania2000@gmail.com"
+
+Dell@DESKTOP-3CB0HVL MINGW64 ~/Documents/HeristicAcedemy_2022/FirstHTMLPage- (main)
+$ git push
+Everything up-to-date
+
+Dell@DESKTOP-3CB0HVL MINGW64 ~/Documents/HeristicAcedemy_2022/FirstHTMLPage- (main)
+$ git remote add origin https://github.com/yeshdamania/FirstHTMLPage-.git
+error: remote origin already exists.
+
+Dell@DESKTOP-3CB0HVL MINGW64 ~/Documents/HeristicAcedemy_2022/FirstHTMLPage- (main)
+$ git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/yeshdamania/FirstHTMLPage-.git'
+
+Dell@DESKTOP-3CB0HVL MINGW64 ~/Documents/HeristicAcedemy_2022/FirstHTMLPage- (main)
+$ git push -u origin main
+Everything up-to-date
+branch 'main' set up to track 'origin/main'.
+
+Dell@DESKTOP-3CB0HVL MINGW64 ~/Documents/HeristicAcedemy_2022/FirstHTMLPage- (main)
+$ git pusah
+git: 'pusah' is not a git command. See 'git --help'.
+
+The most similar command is
+        push
+
+
+Dell@DESKTOP-3CB0HVL MINGW64 ~/Documents/HeristicAcedemy_2022/FirstHTMLPage- (main)
+$ git psuh
+git: 'psuh' is not a git command. See 'git --help'.
+
+The most similar command is
+        push
+
+Dell@DESKTOP-3CB0HVL MINGW64 ~/Documents/HeristicAcedemy_2022/FirstHTMLPage- (main)
+$ git push
+Everything up-to-date
+
+Dell@DESKTOP-3CB0HVL MINGW64 ~/Documents/HeristicAcedemy_2022/FirstHTMLPage- (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   firstHtmlPage.html
+
+
+Dell@DESKTOP-3CB0HVL MINGW64 ~/Documents/HeristicAcedemy_2022/FirstHTMLPage- (main)
+$ git commit -m "first Page"
+[main ac7db82] first Page
+ 1 file changed, 13 insertions(+)
+ create mode 100644 firstHtmlPage.html
+
+Dell@DESKTOP-3CB0HVL MINGW64 ~/Documents/HeristicAcedemy_2022/FirstHTMLPage- (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 450 bytes | 90.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/yeshdamania/FirstHTMLPage-.git
+   2275148..ac7db82  main -> main
+
+Dell@DESKTOP-3CB0HVL MINGW64 ~/Documents/HeristicAcedemy_2022/FirstHTMLPage- (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Dell@DESKTOP-3CB0HVL MINGW64 ~/Documents/HeristicAcedemy_2022/FirstHTMLPage- (main)
+$ ^C
+
+Dell@DESKTOP-3CB0HVL MINGW64 ~/Documents/HeristicAcedemy_2022/FirstHTMLPage- (main)
+$ ^C
+
+Del
